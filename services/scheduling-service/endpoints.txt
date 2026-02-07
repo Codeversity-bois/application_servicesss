@@ -1,0 +1,17 @@
+GET /interviews
+POST /interviews
+GET /interviews/:id
+POST /interviews/:id/reschedule
+POST /interviews/:id/cancel
+
+GET /availability/:recruiterId
+POST /availability
+GET /availability
+DELETE /availability/:id
+
+POST /slots/suggest
+POST /slots/check
+
+GET /calendar/events
+POST /calendar/sync
+POST /calendar/push
